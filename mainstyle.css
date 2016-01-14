@@ -1,7 +1,8 @@
 body {
-	background-color: white;
+	background-color: lavender;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 /* Header */
@@ -45,9 +46,11 @@ body {
 /* Main Body */
 #main_comic_center {
 	height: 1537px;
-	margin: 0;
-	position: relative;
-	background: url('images/demonkings_page_frame.png') top center no-repeat;
+    width: 1014px;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    background: url('images/demonkings_page_frame.png') top center no-repeat;
 }
 
 #blank_page {
@@ -58,5 +61,85 @@ body {
     left: 26px;
     margin: auto;
     padding: 0;
+    z-index: -1;
     background: url('images/demonkings_blank_page.png') center center no-repeat;
+}
+
+#credit_bottom {
+    height: 17px;
+    width: 261px;
+    position: absolute;
+    bottom: 29px;
+    right: 35px;
+    background: url('images/demonkings_credit.png') bottom right no-repeat;
+}
+
+/* Chapter Tabs */
+#chapter_nav_left {
+	height: 526px;
+    width: 5%;
+    background: url('images/demonkings_chaptertabs_base.png') top right no-repeat;
+}
+
+/* Comic Navigation Buttons */
+#comic_nav_bottom {
+    height: 90px;
+    width: 411px;
+    position: absolute;
+    bottom: 62px;
+    right: 30px;
+    background: url('images/demonkings_comicnav_base.png') bottom right no-repeat;
+}
+
+#first_button {
+    display: inline-block;
+    float: left;
+    background: url('images/');
+}
+
+#prev_button {
+    display: inline-block;
+    float: left;
+    background: url('images/');
+}
+
+#next_button {
+    display: inline-block;
+    float: left;
+    background: url('images/');
+}
+
+#last_button {
+    display: inline-block;
+    float: left;
+    background: url('images/');
+}
+
+/* Other Page Navigation */
+#bottom_database {
+    height: 167px;
+    width: 963px;
+    position: absolute;
+    bottom: -94px;
+    right: 0;
+    background: url('images/demonkings_database_bottom.png') top right no-repeat;
+}
+
+#bottom_archive {
+    height: 73px;
+    width: 284px;
+    position: absolute;
+    bottom: 0;
+    left: 191px;
+    background: url('images/demonkings_archive_bottom.png') top right no-repeat;
+}
+
+/* Hiveworks Jump Bar Placeholder */
+#hiveworks_jumpbar_placeholder {
+    height: 43px;
+    width: 544px;
+    position: absolute;
+    bottom: -70px;
+    right: 33px;
+    background: url('images/demonkings_jumpbar_placeholder.png') bottom right no-repeat;
 }
