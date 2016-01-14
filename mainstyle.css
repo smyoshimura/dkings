@@ -74,11 +74,30 @@ body {
     background: url('images/demonkings_credit.png') bottom right no-repeat;
 }
 
-/* Chapter Tabs */
+/* Chapter Navigation */
+#chapter_num_top {
+    height: 29px;
+    width: 53px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    z-index: 1;
+    background: url('images/demonkings_chapter_top_placeholder.png') no-repeat;
+}
+
 #chapter_nav_left {
 	height: 526px;
-    width: 5%;
+    width: 53px;
     background: url('images/demonkings_chaptertabs_base.png') top right no-repeat;
+}
+
+#chapter_text {
+    height: 39px;
+    width: 28px;
+    position: absolute;
+    top: 407px;
+    left: 11px;
+    background: url('images/demonkings_ch.png') no-repeat;
 }
 
 /* Comic Navigation Buttons */
