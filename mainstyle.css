@@ -1,8 +1,8 @@
 body {
-	background-color: lavender;
+	background-color: white;
 	padding: 0;
 	margin: 0;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 /* Header */
@@ -13,7 +13,9 @@ body {
 
 #top_logo {
 	height: 84px;
-	display: block;
+    width: 490px;
+    margin: auto;
+    display: block;
 	background: url('images/demonkings_mainlogo.png') top center no-repeat;
 }
 
@@ -72,6 +74,15 @@ body {
     bottom: 29px;
     right: 35px;
     background: url('images/demonkings_credit.png') bottom right no-repeat;
+}
+
+#main_charas_right {
+    height: 1084px;
+    width: 184px;
+    position: absolute;
+    top: 190px;
+    right: 172px;
+    background: url('images/demonkings_char_bios_placeholder.png') no-repeat top right;
 }
 
 /* Chapter Navigation */
@@ -136,7 +147,7 @@ body {
 
 /* Other Page Navigation */
 #bottom_database {
-    height: 167px;
+    height: 169px;
     width: 963px;
     position: absolute;
     bottom: -94px;
@@ -145,11 +156,11 @@ body {
 }
 
 #bottom_archive {
-    height: 73px;
+    height: 75px;
     width: 284px;
     position: absolute;
     bottom: 0;
-    left: 191px;
+    left: 192px;
     background: url('images/demonkings_archive_bottom.png') top right no-repeat;
 }
 
@@ -161,4 +172,50 @@ body {
     bottom: -70px;
     right: 33px;
     background: url('images/demonkings_jumpbar_placeholder.png') bottom right no-repeat;
+}
+
+/* Entry and Comments Area */
+#commentarea_bottom {
+    margin: auto;
+    height: 100vh;
+    width: 963px;
+    position: relative;
+    top: 94px;
+    left: 25px;
+}
+
+#chapter_num_bottom {
+    height: 35px;
+    width: 66px;
+    position: absolute;
+    top: -54px;
+    left: 60px;
+    background: url('images/demonkings_chapter_bottom_placeholder.png') left top no-repeat;
+}
+
+#placeholder_frame_right {
+    height: 609px;
+    width: 340px;
+    position: absolute;
+    top: 0;
+    right: -365px;
+    background: url('images/demonkings_placeholder_frame_right.png') top right no-repeat;
+}
+
+#placeholder_right {
+    height: 528px;
+    width: 300px;
+    margin: auto;
+    padding-top: 40px;
+    background: url('images/demonkings_right_placeholder.png') center center no-repeat;
+}
+
+#uedc_logo {
+    height: 1261px;
+    width: 1373px;
+    margin-top: 25px;
+    position: absolute;
+    left: -205px;
+    z-index: 1;
+    background: url('images/demonkings_uedc_logo.png') top center no-repeat;
 }
