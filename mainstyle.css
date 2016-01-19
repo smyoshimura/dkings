@@ -9,7 +9,16 @@ body {
 #top_page_nav {
     height: 100px;
     width: 99vw;
-    background: url('images/demonkings_navheader.png') top center no-repeat;
+    background: url('images/demonkings_header_base.png') top center no-repeat;
+}
+
+#header_wrapper {
+    height: 100px;
+    width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    /* background: aquamarine; */
 }
 
 #top_logo {
@@ -17,25 +26,31 @@ body {
     width: 490px;
     margin: auto;
     display: block;
-    background: url('images/demonkings_mainlogo.png') top center no-repeat;
 }
 
 #top_logo:hover {
     height: 100px;
     width: 99vw;
-    background: url('images/demonkings_mainlogo.png') top center no-repeat, url('images/demonkings_navheader_on.png') top center no-repeat;
+    background: url('images/demonkings_header_on.png') top center no-repeat;
 }
 
 #top_database {
-    height: 100px;
-    width: 48%;
+    height: 38px;
+    width: 138px;
+    display: block;
     position: absolute;
-    top: 0;
-    z-index: -1;
-    background: url('images/demonkings_db_top.png') top right no-repeat;
+    left: 0;
+    bottom: 0;
+    /*background: rgba(200,200,200,0.5);*/
 }
 
-#top_archive {
+#top_database:hover {
+    height: 100px;
+    width: 48%;
+    background: url('images/demonkings_database_on.png') bottom right no-repeat;
+}
+
+#top_archive_base {
     height: 100px;
     width: 50%;
     position: absolute;
@@ -129,27 +144,45 @@ body {
 }
 
 #first_button {
+    height: 90px;
+    width: 90px;
     display: inline-block;
     float: left;
-    background: url('images/');
+}
+
+#first_button:hover {
+    background: url('images/demonkings_first_on.png') no-repeat;
 }
 
 #prev_button {
+    height: 90px;
+    width: 90px;
+    margin-left: 17px;
     display: inline-block;
     float: left;
-    background: url('images/');
+    
+}
+
+#prev_button:hover {
+    background: url('images/demonkings_prev_on.png') no-repeat;
 }
 
 #next_button {
+    height: 90px;
+    width: 90px;
+    margin-left: 17px;
     display: inline-block;
     float: left;
-    background: url('images/');
+    background: url('images/demonkings_next_on.png') no-repeat;
 }
 
 #last_button {
+    height: 90px;
+    width: 90px;
+    margin-left: 17px;
     display: inline-block;
     float: left;
-    background: url('images/');
+    background: url('images/demonkings_last_on.png') no-repeat;
 }
 
 /* Other Page Navigation */
