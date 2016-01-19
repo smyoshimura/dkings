@@ -35,13 +35,15 @@ body {
 }
 
 #top_database {
-    height: 38px;
-    width: 138px;
-    display: block;
+    height: 30px;
+    width: 123px;
     position: absolute;
-    left: 0;
     bottom: 0;
-    /*background: rgba(200,200,200,0.5);*/
+    right: 0;
+    margin-right: 342px;
+    display: block;
+    /* z-index: 1; */
+    background: rgba(200,200,200,0.9);
 }
 
 #top_database:hover {
