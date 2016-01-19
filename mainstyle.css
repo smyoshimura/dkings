@@ -8,7 +8,6 @@ body {
 /* Header */
 #top_page_nav {
     height: 100px;
-    width: 99vw;
     background: url('images/demonkings_navheader.png') top center no-repeat;
 }
 
@@ -22,17 +21,33 @@ body {
 
 #top_logo:hover {
     height: 100px;
-    width: 99vw;
+    width: 100%;
     background: url('images/demonkings_mainlogo.png') top center no-repeat, url('images/demonkings_navheader_on.png') top center no-repeat;
 }
 
-#top_database {
+.top_database_base {
     height: 100px;
     width: 48%;
     position: absolute;
     top: 0;
     z-index: -1;
     background: url('images/demonkings_db_top.png') top right no-repeat;
+}
+
+.top_database_hover {
+    background: url('images/demonkings_db_top_on.png') top right no-repeat;
+}
+
+#top_database {
+    height: 30px;
+    width: 123px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 342px;
+    display: block;
+    /* z-index: 1; */
+    background: url('images/demonkings_database.png') no-repeat;
 }
 
 #top_archive {
@@ -87,9 +102,9 @@ body {
     height: 1084px;
     width: 184px;
     position: absolute;
-    top: 0;
-    right: -205px;
-    background: url('images/demonkings_char_bios_placeholder.png') top center no-repeat;
+    top: 190px;
+    right: 172px;
+    background: url('images/demonkings_char_bios_placeholder.png') no-repeat top right;
 }
 
 /* Chapter Navigation */
