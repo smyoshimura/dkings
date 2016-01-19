@@ -30,8 +30,7 @@ body {
     width: 48%;
     position: absolute;
     top: 0;
-    z-index: -1;
-    background: url('images/demonkings_db_top.png') top right no-repeat;
+    background: url('images/demonkings_top_db_alt.png') top right no-repeat;
 }
 
 .top_database_hover {
