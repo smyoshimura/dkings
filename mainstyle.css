@@ -8,34 +8,72 @@ body {
 /* Header */
 #top_page_nav {
 	height: 100px;
-	background: url('images/demonkings_navheader.png') top center no-repeat;
+    min-width: 1000px;
+    width: 100%;
+    display: table;
+	/*background: url('images/demonkings_navheader.png') top center no-repeat;*/
 }
 
-#top_logo {
-	height: 84px;
-    width: 490px;
+.top_logo {
+	height: 100px;
+    width: 605px;
     margin: auto;
-    display: block;
-	background: url('images/demonkings_mainlogo.png') top center no-repeat;
+    display: table-cell;
+	background: url('images/demonkings_header_center.png') top center no-repeat;
+}
+
+.top_logo_hover {
+    background: url('images/demonkings_header_center_on.png') top center no-repeat;
+}
+
+.top_database_base {
+	height: 100px;
+    display: table-cell;
+    position: relative;
+    background: url('images/demonkings_header_left.png') top right no-repeat;
+}
+
+.top_database_hover {
+    background: url('images/demonkings_header_left_on1.png') top right no-repeat;
+}
+
+.top_database_hover_2 {
+    background: url('images/demonkings_header_left_on2.png') top right no-repeat;
 }
 
 #top_database {
-	height: 100px;
-    width: 48%;
+    height: 30px;
+    width: 123px;
+    padding: 2px;
+    display: block;
     position: absolute;
-    top: 0;
-    z-index: -1;
-    background: url('images/demonkings_db_top.png') top right no-repeat;
+    bottom: 0;
+    right: 42px;
+}
+
+.top_archive_base {
+	height: 100px;
+    display: table-cell;
+    position: relative;
+    background: url('images/demonkings_header_right.png') top left no-repeat;
+}
+
+.top_archive_hover {
+    background: url('images/demonkings_header_right_on1.png') top left no-repeat;
+}
+
+.top_archive_hover_2 {
+    background: url('images/demonkings_header_right_on2.png') top left no-repeat;
 }
 
 #top_archive {
-	height: 100px;
-    width: 50%;
+    height: 30px;
+    width: 100px;
+    padding: 2px;
+    display: block;
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background: url('images/demonkings_archive_top.png') top left no-repeat;
+    bottom: 0;
+    left: 43px;
 }
 
 #header_top_hive {
