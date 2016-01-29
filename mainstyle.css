@@ -1,11 +1,9 @@
 body {
 	background-color: white;
+    width: 100%;
 	padding: 0;
 	margin: 0;
-	/*overflow-x: hidden;*/
 }
-
-table { empty-cells: show; }
 
 /* Header */
 #top_page_nav {
@@ -80,6 +78,7 @@ table { empty-cells: show; }
     left: 43px;
 }
 
+/* Top Ad*/
 #header_top_hive {
 	height: 90px;
 	margin: 4px;
@@ -136,10 +135,94 @@ table { empty-cells: show; }
     background: url('images/demonkings_chapter_top_placeholder.png') no-repeat;
 }
 
-#chapter_nav_left {
+.chapter_nav_left {
 	height: 526px;
     width: 53px;
     background: url('images/demonkings_chaptertabs_base.png') top right no-repeat;
+}
+
+.chapter_nav_hover6 {
+    background: url('images/demonkings_chaptertabs_on6.png') top right no-repeat;
+}
+
+.chapter_nav_hover5 {
+    background: url('images/demonkings_chaptertabs_on5.png') top right no-repeat;
+}
+
+.chapter_nav_hover4 {
+    background: url('images/demonkings_chaptertabs_on4.png') top right no-repeat;
+}
+
+.chapter_nav_hover3 {
+    background: url('images/demonkings_chaptertabs_on3.png') top right no-repeat;
+}
+
+.chapter_nav_hover2 {
+    background: url('images/demonkings_chaptertabs_on2.png') top right no-repeat;
+}
+
+.chapter_nav_hover1 {
+    background: url('images/demonkings_chaptertabs_on1.png') top right no-repeat;
+}
+
+#chapter_num_wrapper {
+    height: 270px;
+    width: 50px;
+    position: absolute;
+    top: 85px;
+}
+
+#ch006 {
+    height: 25px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch6.png') center no-repeat;
+}
+
+#ch005 {
+    height: 25px;
+    width: 50px;
+    margin-top: 22px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch5.png') center no-repeat;
+}
+
+#ch004 {
+    height: 25px;
+    width: 50px;
+    margin-top: 22px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch4.png') center no-repeat;
+}
+
+#ch003 {
+    height: 25px;
+    width: 50px;
+    margin-top: 22px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch3.png') center no-repeat;
+}
+
+#ch002 {
+    height: 25px;
+    width: 50px;
+    margin-top: 22px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch2.png') center no-repeat;
+}
+
+#ch001 {
+    height: 25px;
+    width: 50px;
+    margin-top: 22px;
+    display: block;
+    float: left;
+    background: url('images/demonkings_ch1.png') center no-repeat;
 }
 
 #chapter_text {
@@ -225,7 +308,7 @@ table { empty-cells: show; }
 }
 
 /* Other Page Navigation */
-#bottom_database {
+.bottom_database_base {
     height: 169px;
     width: 963px;
     position: absolute;
@@ -234,13 +317,38 @@ table { empty-cells: show; }
     background: url('images/demonkings_database_bottom.png') top right no-repeat;
 }
 
-#bottom_archive {
+.bottom_database_hover {
+    background: url('images/demonkings_database_bottom_on.png') top right no-repeat;
+}
+
+#bottom_database {
+    height: 30px;
+    width: 123px;
+    margin: 25px;
+    display: block;
+    background: url('images/demonkings_database.png') no-repeat;
+}
+
+.bottom_archive_base {
     height: 75px;
     width: 284px;
     position: absolute;
     bottom: 0;
     left: 192px;
     background: url('images/demonkings_archive_bottom.png') top right no-repeat;
+}
+
+.bottom_archive_hover {
+    background: url('images/demonkings_archive_bottom_on.png') top right no-repeat;
+}
+
+#bottom_archive {
+    height: 28px;
+    width: 104px;
+    margin-top: 26px;
+    margin-left: 82px;
+    display: block;
+    background: url('images/demonkings_archive.png') no-repeat;
 }
 
 /* Hiveworks Jump Bar Placeholder */
@@ -272,6 +380,7 @@ table { empty-cells: show; }
     background: url('images/demonkings_chapter_bottom_placeholder.png') left top no-repeat;
 }
 
+/*Bottom Right Ads*/
 #placeholder_frame_right {
     height: 609px;
     width: 340px;
@@ -289,6 +398,7 @@ table { empty-cells: show; }
     background: url('images/demonkings_right_placeholder.png') center center no-repeat;
 }
 
+/*Background Logo*/
 #uedc_logo {
     height: 1261px;
     width: 1373px;
